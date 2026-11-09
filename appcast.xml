@@ -6,6 +6,25 @@
         <description>Signed updates for iPresence.</description>
         <language>en</language>
         <item>
+            <title>0.0.4</title>
+            <pubDate>Sun, 08 Nov 2026 23:59:50 -0800</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.6</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# iPresence 0.0.4
+
+- Added Premium licensing with live lyrics, menu bar customization, and automatic sharing.
+- Improved onboarding to request Apple Music Automation and macOS Keychain access from the Permissions step.
+- Added permission status checks when the Permissions step opens and when the app becomes active.
+- Added handling for revoked Apple Music access, including stopping sharing and reopening the Permissions step.
+- Added guidance and a System Settings shortcut when Apple Music access has already been denied.
+- Added a stable bundle identifier and macOS development signing configuration.
+- Added a Premium promotion page and updated the app website with the $4.99 license price.
+- Fixed duplicated content across the iPresence website.
+- Improved lyrics fetching, playback updates, and Premium controls throughout the app.]]></description>
+            <enclosure url="https://github.com/jez020/iPresence-updates/releases/download/v0.0.4/iPresence-0.0.4-4.zip" length="3160152" type="application/octet-stream" sparkle:edSignature="mppQITVvBGl74cWPpy/JJ8HBLL1kZn1pqGxbGBe6hV1ZUe/NwHU9yCJodUGkorJ/B9WdAlZhj4V5SYnsoy+gCQ=="/>
+        </item>
+        <item>
             <title>0.0.3</title>
             <pubDate>Sun, 08 Nov 2026 23:15:10 -0800</pubDate>
             <sparkle:version>3</sparkle:version>
@@ -30,18 +49,6 @@
 
 - Test]]></description>
             <enclosure url="https://github.com/jez020/iPresence-updates/releases/download/v0.0.2/iPresence-0.0.2-2.zip" length="3092531" type="application/octet-stream" sparkle:edSignature="HeiU7aZoqmOp87xWiQTDIjUiXetxz7X2IJC/KmyuX5OwI6afgsfW2hQJruDxwnW7Up7Lww2vGKUUggf6dpdcCQ=="/>
-        </item>
-        <item>
-            <title>0.0.1</title>
-            <pubDate>Sun, 08 Nov 2026 22:15:28 -0800</pubDate>
-            <sparkle:version>1</sparkle:version>
-            <sparkle:shortVersionString>0.0.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.6</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# iPresence 1.1.0
-
-- Added automatic update support.
-- Fixed menu-bar controls.]]></description>
-            <enclosure url="https://github.com/jez020/iPresence-updates/releases/download/v0.0.1/iPresence-0.0.1-1.zip" length="3092525" type="application/octet-stream" sparkle:edSignature="2Sb3JUMrf2u/bSwYK+p6ROxsg5RC8R6JcqUXNTIcKQmorqYGGX7cyVNGvd8SNRmtO3v2/mz6k3f0zlriuyteAQ=="/>
         </item>
     </channel>
 </rss>
