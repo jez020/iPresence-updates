@@ -6,6 +6,21 @@
         <description>Signed updates for iPresence.</description>
         <language>en</language>
         <item>
+            <title>0.0.3</title>
+            <pubDate>Sun, 08 Nov 2026 23:15:10 -0800</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>0.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.6</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# iPresence 0.0.3
+
+- Added Premium licensing with live lyrics, menu bar customization, and automatic sharing.
+- Added onboarding for Apple Music permissions, app setup, and Premium activation.
+- Added secure license storage and validation through macOS Keychain and Polar.
+- Added a Premium promotion page and updated the app website with the $4.99 license price.
+- Improved lyrics fetching, playback updates, and Premium controls throughout the app.]]></description>
+            <enclosure url="https://github.com/jez020/iPresence-updates/releases/download/v0.0.3/iPresence-0.0.3-3.zip" length="3140243" type="application/octet-stream" sparkle:edSignature="bANRCEzNKhgkuRwLuqJVMB5GmYMroCNROzf3T6WZ2flCZ7BTEk3AHnDmjvk6O0z6hfL/lyOEr0xz56R4vaVRBQ=="/>
+        </item>
+        <item>
             <title>0.0.2</title>
             <pubDate>Sun, 08 Nov 2026 22:18:39 -0800</pubDate>
             <sparkle:version>2</sparkle:version>
