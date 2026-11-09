@@ -1,9 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-  <channel>
-    <title>iPresence Updates</title>
-    <link>https://raw.githubusercontent.com/jez020/iPresence-updates/main/appcast.xml</link>
-    <description>Signed updates for iPresence.</description>
-    <language>en</language>
-  </channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>iPresence Updates</title>
+        <link>https://raw.githubusercontent.com/jez020/iPresence-updates/main/appcast.xml</link>
+        <description>Signed updates for iPresence.</description>
+        <language>en</language>
+        <item>
+            <title>0.0.1</title>
+            <pubDate>Sun, 08 Nov 2026 22:15:28 -0800</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>0.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.6</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# iPresence 1.1.0
+
+- Added automatic update support.
+- Fixed menu-bar controls.]]></description>
+            <enclosure url="https://github.com/jez020/iPresence-updates/releases/download/v0.0.1/iPresence-0.0.1-1.zip" length="3092525" type="application/octet-stream" sparkle:edSignature="2Sb3JUMrf2u/bSwYK+p6ROxsg5RC8R6JcqUXNTIcKQmorqYGGX7cyVNGvd8SNRmtO3v2/mz6k3f0zlriuyteAQ=="/>
+        </item>
+    </channel>
 </rss>
